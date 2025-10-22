@@ -1,13 +1,11 @@
 
 body {
-  position: center;
   width: 400px;
 height:100px;
 }
 
 
 p{
-  position: center;
 width: 400px;
  height: 200px;
 }
@@ -19,26 +17,19 @@ canvas {
   z-index:-1;
   
 }
-
-
 h1 {
-  text-align: center;
+
   width: 1000px;
 height:100px;
-color: rgb(203, 17, 81)
+color: aliceblue
 }
     a {
 
-
-width: 1000px;
+width: 400px;
  height: 200px;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-color:aliceblue
+color: teal
     }
 a:link {
   text-decoration: none;
-}
-h2 {
-    text-align: center;
-
 }
