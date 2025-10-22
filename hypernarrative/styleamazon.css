@@ -1,0 +1,37 @@
+
+body {
+  position: center;
+  width: 400px;
+height:100px;
+}
+
+
+p{
+  position: center;
+width: 400px;
+ height: 200px;
+}
+
+canvas {
+  position: fixed;
+  top:0;
+  left:0;
+  z-index:-1;
+  
+}
+h1 {
+    position: center;
+  width: 800px;
+height:100px;
+color: aliceblue
+}
+    a {
+   position: center;
+width: 400px;
+ height: 200px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color:gold
+    }
+a:link {
+  text-decoration: none;
+}

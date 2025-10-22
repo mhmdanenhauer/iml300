@@ -1,0 +1,63 @@
+
+body {
+  position: center;
+  width: 400px;
+height:100px;
+}
+
+
+p{
+  position: center;
+width: 400px;
+ height: 200px;
+}
+
+canvas {
+  position: fixed;
+  top:0;
+  left:0;
+  z-index:-1;
+  
+}
+h1 {
+    position: center;
+  width: 400px;
+height:100px;
+color: rgb(203, 17, 81)
+}
+    a {
+   position: center;
+width: 400px;
+ height: 200px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color:aliceblue
+    }
+a:link {
+  text-decoration: none;
+}
+/* Example: apply to all links */
+a:hover {
+  animation: pulse 2s infinite;
+}
+
+/* Example: apply only to links with a specific class */
+.pulse-link:hover {
+  animation: pulse 1.5s infinite;
+}
+/* Define the keyframes for the pulse animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05); /* Adjust this value to change pulse size */
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Apply the animation on hover */
+a:hover {
+  animation: pulse 2s infinite; /* Adjust duration to change speed */
+}
