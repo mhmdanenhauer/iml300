@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" href="https://glitch.com/favicon.ico" />
-    <title>Document</title>
+    <title>What kind of girl are you?</title>
     <!-- Import p5.js and p5.sound library  -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
@@ -22,6 +22,26 @@
   display: grid;
   place-items: center;
 }
+a:hover {
+    animation: pulseAnim 1s linear infinite;
+}
+@keyframes pulseAnim {
+  0% {
+font-size: 20px;
+  }
+  50% {
+font-size: 25px
+  }
+  100% {
+    font-size: 20px;
+  }
+}
+a {
+  width: 1000px;
+ height: 200px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color:aliceblue
+}
 </style>
 
  
@@ -35,10 +55,11 @@
 <div class="center">
 
 <h1>
-        What kind of girl are you?
+<div class="mainhead">
+    What kind of girl are you?
+  </div>
 </h1>
 <h2>
-  
 <a href="mermaid1.html">I want to be a mermaid</a>
 </h2>
 <h2>
@@ -50,8 +71,7 @@
 <h2>
     <a href="woman1.html">I want to be a woman</a>
 </h2>
-  </div>
- 
+   </div>
 <!-- add/change -->
  <!--make gradient half screen
  add pulse/hover effect to links

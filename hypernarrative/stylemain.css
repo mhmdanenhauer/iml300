@@ -1,9 +1,4 @@
 
-body {
-  position: center;
-  width: 400px;
-height:100px;
-}
 
 
 p{
@@ -21,7 +16,7 @@ canvas {
 }
 
 
-h1 {
+.mainhead {
   text-align: center;
   width: 1000px;
 height:100px;
@@ -29,16 +24,23 @@ color: rgb(203, 17, 81)
 }
     a {
 
-
-width: 1000px;
- height: 200px;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-color:aliceblue
-    }
-a:link {
   text-decoration: none;
 }
+
+
+
+
+
+
+.pathhead {
+  text-align: left;
+  width: 1000px;
+  height:100px;
+  color: aliceblue
+}
+
 h2 {
     text-align: center;
 
 }
+
