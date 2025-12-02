@@ -106,7 +106,13 @@ h1 {
   perspective: 1000px;
   transform-style: preserve-3d;
 }
-
+.phys {
+    color: black;
+    position: absolute;
+    top: 25%;
+    left: 900px;
+    z-index: -1;
+}
 .conversation {
     color: black;
     position: absolute;
@@ -114,7 +120,13 @@ h1 {
     left: 1000px;
     z-index: -1;
 }
-
+.intell {
+    color: lightskyblue;
+    position: absolute;
+    top: 25%;
+    left: 1000px;
+    z-index: -1;
+}
 .naming {
     color: whitesmoke;
     position: absolute;
@@ -126,6 +138,13 @@ h1 {
     color: whitesmoke;
     position: absolute;
     top: 152%;
+    left: 550px;
+    z-index: -1;
+}
+.soci {
+    color: lightskyblue;
+    position: absolute;
+    top: 159%;
     left: 550px;
     z-index: -1;
 }
@@ -174,6 +193,11 @@ h3:hover {
     position: absolute;
     left: 250px;
     bottom: 100px;
+}
+.pod {
+    position: absolute;
+    left: 250px;
+    bottom: 0px;
 }
 .feed {
     position: absolute;
