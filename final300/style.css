@@ -129,6 +129,13 @@ h1 {
     left: 550px;
     z-index: -1;
 }
+.hunting {
+    color: black;
+    position: absolute;
+    top: 160%;
+    z-index: -1;
+    text-align: center;
+}
 .endang {
     color: black;
     position: absolute;
@@ -167,6 +174,11 @@ h3:hover {
     position: absolute;
     left: 250px;
     bottom: 100px;
+}
+.feed {
+    position: absolute;
+    left: 250px;
+    bottom: 0px;
 }
 .res {
     position: absolute;
