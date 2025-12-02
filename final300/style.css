@@ -96,7 +96,6 @@ h1 {
   transition: all 0.3s ease-in-out;
 }
 
-
 .history {
     top: 0px;
 }
@@ -111,6 +110,13 @@ h1 {
     position: absolute;
     top: 25%;
     left: 875px;
+    z-index: -1;
+}
+.dollar {
+    color: black;
+    position: absolute;
+    top: 25%;
+    left: 900px;
     z-index: -1;
 }
 .conversation {
@@ -161,6 +167,13 @@ h1 {
     top: 165%;
     z-index: -1;
     text-align: center;
+}
+.inform {
+    color: black;
+    position: absolute;
+    top: 130%;
+    left: 200px;
+    z-index: -1;
 }
 .endang {
     color: black;
@@ -231,6 +244,11 @@ h3:hover {
     top: 90%;
 
 }
+.alaska {
+    position: absolute;
+    top: 70%;
+  left: 50px;
+}
 h4 {
     color: blue;
 
@@ -239,6 +257,14 @@ h4 {
     position: absolute;
     top: 150%;
     left: 100px;
+    right: 200px;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
+.textlast {
+    position: absolute;
+    top: 100%;
+    left: 700px;
     right: 200px;
     font-size: 15px;
     padding-bottom: 50px;

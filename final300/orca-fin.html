@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What You Can Do</title>
+    <link rel="stylesheet" href="style.css" />    
+
+</head>
+<style>/* Presentational Styles */
+body {
+	display: grid;
+  font-family: 'Poppins', sans-serif;
+  font-size: 27px;
+  font-weight: 700;
+  height: 100vh;
+  place-items: center;
+  background-color: aliceblue;
+}
+p {
+    color: darkgreen;
+}
+img {
+    position: absolute;
+    border-radius: 8px;
+  transition: all .5s ease;
+  -webkit-transform: rotateX(0deg);
+  -webkit-transform-origin-y: 300px;  /* rotates from the bottom of the image */
+}
+img:hover {
+  -webkit-transform: rotateX(-40deg);
+}
+a {
+  text-decoration: none;
+  color: green;
+}
+h1:before{
+  content: '';
+  background: blue;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+h1:hover {
+ background-position: 0;
+}
+
+h1:hover::before{
+  width: 100%;
+}
+
+</style>
+<body>
+<h1>
+  <a href="orcahome.html">
+    What You Can Do
+</a>
+</h1>
+
+<div class="container history">
+<img src="https://images.squarespace-cdn.com/content/v1/57c9edba2994ca8c81a1a8f1/1616169717398-0V1ADZ6F2YEL0QD438VQ/orca-whale-san-juan-islands.jpg" alt="orca being observed by a whale watching boat">
+
+</div>
+<div class="dollar">
+ <h2>
+    Vote with Your Dollar
+</h2>
+</div>
+<div class="textleft">
+<h3>Whale Shows</h3>
+<p>Orcas suffer in captivity; orcas are often taken captive simply to be entertainment for consumers. Do not attend SeaWorld and similar parks that continue to have abusive whale shows and for-profit captivity.</p>
+<h3>Whale Watching</h3>
+<p>Whale watching is more ethical than captive whale shows, however, some companies will harass whales to perform for tourist's entertainment, so research is essential. Additionally, noise from boats may disturb their echolocation, which is neccessary for communication and hunting. Avoid whale watching in the terrority of the endangered Southern Residents. Also note that some orca watching experiences are hosted partially on indigenious lands, in conjunction with Indigenious people, or heavily reference these cultures; be respectful of Indigenious spaces and tradition, and remember to leave no trace when in nature or cultural sites.</p>
+</div>
+<div class="alaska">
+<img src="https://www.sanjuansafaris.com/sites/default/files/styles/card/public/2023-01/CM%20Adventure%20Fav3.jpg.webp?itok=gWPltN1B" alt="an orca swims near an alaskan rockface">
+</div>
+
+
+<div class="inform">
+<h2>
+    Stay Informed
+</h2>
+</div>
+<div class="textlast">
+    <h3>Indigenious Knowledge</h3>
+<p>
+    Science has increasingly looked to Indigenious knowledge and stories to fill in information gaps that can be mitigated by long term exposure and co-habitation. For orcas particularly, researchers have placed an increase focus on the Inuit community in Alaska, who have long observed the feeding and behavioral practices of orcas. Indigenious knowledge is a better altnerative to close study in captivity, and should not be dismissed due to a preconception that it is altogether inferior to Western practices of study.
+</p>
+
+<h3>
+    Check Your Sources
+</h3>
+<p>
+    Sources that profit off the abuse of orcas or fund their studies through abusive practices or insitutions, like <b>SeaWorld</b>, should not be blindly trusted, as they have a bias towards capital and maintaing their economic interests. Though SeaWorld is somewhat of a leader in orca research and can be useful, it is obviously biased against reporting on the psychological detriments of captivity. Prioritize the voices of scientists unaffiliated with whale experiences, Indigenious scholars, and advocacy groups like Orca Conservancy.
+</p>
+</div>
+</body>
+</html>
