@@ -110,7 +110,7 @@ h1 {
     color: black;
     position: absolute;
     top: 25%;
-    left: 900px;
+    left: 875px;
     z-index: -1;
 }
 .conversation {
@@ -155,6 +155,13 @@ h1 {
     z-index: -1;
     text-align: center;
 }
+.use {
+    color: black;
+    position: absolute;
+    top: 165%;
+    z-index: -1;
+    text-align: center;
+}
 .endang {
     color: black;
     position: absolute;
@@ -185,6 +192,14 @@ h3 {
     font-size: 15px;
     padding-bottom: 50px;
 }
+.texttail {
+    position: absolute;
+    top: 185%;
+    left: 100px;
+    right: 200px;
+    font-size: 15px;
+    padding-bottom: 50px;
+}
 h3:hover {
   color: black;
   box-shadow: inset 200px 0 0 0 blue;;
@@ -198,6 +213,12 @@ h3:hover {
     position: absolute;
     left: 250px;
     bottom: 0px;
+}
+.bird {
+    position: absolute;
+    left: 10%;
+    top: 80%;
+
 }
 .feed {
     position: absolute;
