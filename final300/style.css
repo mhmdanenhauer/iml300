@@ -97,7 +97,8 @@ h1 {
 }
 
 .history {
-    top: 0px;
+    top: 200px;
+    position: absolute;
 }
 
 .container {
@@ -134,14 +135,14 @@ h1 {
     z-index: -1;
 }
 .naming {
-    color: whitesmoke;
+    color: black;
     position: absolute;
     top: 25%;
     left: 1000px;
     z-index: -1;
 }
 .culture {
-    color: whitesmoke;
+    color: black;
     position: absolute;
     top: 152%;
     left: 550px;

@@ -8,12 +8,29 @@
 </head>
 <style>
 
+
+
 body {
   background-color: peachpuff;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+svg {
+  transform: rotate(15deg);
+  left: 45%;
+  position: absolute;
+  top: 55%;
+}
+
+svg text {
+  text-anchor: middle;
+  fill: black;
+  font-size: 30px;
+  offset: 50%;
+  
 }
 </style>
 <body>
@@ -46,8 +63,23 @@ body {
   <a href="orca-fin.html">
 <img src="orca images/orca fin.png" alt="the tail fin of an orca">
 </a>
-</div>  
- <!-- <img src="orca images/orca-whole.png" alt="an adult male orca" width="100%"> -->
+</div>
+<svg>
+  <defs>
+    <path id="line1" d="
+            M 0,300 
+            A 200,200 0 0 1 400,300"
+     />
+    <path id="line2" d="
+            M 0,300 
+            A 200.75,200 0 0 1 400,300"
+     />
+  </defs>
+  <text>
+    <textPath startOffset="50%" xlink:href="#line1"><a href="references.html">References</a></textPath>
+  </text>
+</svg>
+
 
 </body>
 </html>
